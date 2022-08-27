@@ -1,0 +1,122 @@
+Converting GML script: ${project_dir}\scripts\scr_state_movement\scr_state_movement.gml
+Converted description /// @description scr_state_movement
+
+Converting GML script: ${project_dir}\scripts\scr_collision_line_first\scr_collision_line_first.gml
+Converted description /// @description  scr_collision_line_first(x1,y1,x2,y2,object,prec,notme)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param object
+/// @param prec
+/// @param notme
+
+Converting GML script: ${project_dir}\scripts\scr_get_input\scr_get_input.gml
+Converted description /// @description scr_get_input
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_add_item\scr_inventory_add_item.gml
+Converted description /// @description scr_inventory_add_item(x, y, item)/// @param x
+/// @param  y
+/// @param  item
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_remove_item\scr_inventory_remove_item.gml
+Converted description /// @description scr_inventory_remove_item(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_inventory_pickup_item\scr_inventory_pickup_item.gml
+Converted description /// @description scr_inventory_pickup_item(item)/// @param item
+
+Converting GML script: ${project_dir}\scripts\scr_state_gui\scr_state_gui.gml
+Converted description /// @description scr_state_gui
+
+Converting GML script: ${project_dir}\scripts\scr_x_to_gx\scr_x_to_gx.gml
+Converted description /// @description scr_x_to_gx(x)/// @param x
+
+Converting GML script: ${project_dir}\scripts\scr_y_to_gy\scr_y_to_gy.gml
+Converted description /// @description scr_y_to_gy(y)/// @param y
+
+Converting GML script: ${project_dir}\scripts\scr_blockdrop\scr_blockdrop.gml
+Converted description /// @description scr_blockdrop(dropUnique,x,y,min,max,item)/// @param dropUnique
+/// @param x
+/// @param y
+/// @param min
+/// @param max
+/// @param item
+
+Converting GML script: ${project_dir}\scripts\scr_autotile\scr_autotile.gml
+Converted description /// @description scr_autotile
+
+Converting GML script: ${project_dir}\scripts\scr_itemid\scr_itemid.gml
+Converted description /// @description scr_itemid
+
+Converting GML script: ${project_dir}\scripts\scr_blockProperties\scr_blockProperties.gml
+Converted description /// @description scr_blockProperties
+
+Converting GML script: ${project_dir}\scripts\scr_generate\scr_generate.gml
+Converted description /// @description scr_generate
+Converted string - line 19: ' blocks are empty' -> " blocks are empty"
+
+Converting GML script: ${project_dir}\scripts\scr_itemstat\scr_itemstat.gml
+Converted description /// @description scr_itemstat(ID, name, description, max uses, uses, owned, block);/// @param ID
+/// @param  name
+/// @param  description
+/// @param  max uses
+/// @param  uses
+/// @param  owned
+/// @param  block
+
+Font fnt_gui has been converted to font family Bodge (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_gui\fnt_gui.gms1.png
+Font fnt_menu has been converted to font family Bodge (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_menu\fnt_menu.gms1.png
+Converting GML script: ${project_dir}\objects\obj_view\Step_0.gml
+Converted description /// @description Move to Player
+
+Converting GML script: ${project_dir}\objects\obj_collideparent\Collision_6a6c4c53-c938-4e16-b563-074f14d493f8.gml
+Converted description /// @description Collision
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Essentials
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description State Adjust
+
+Converting GML script: ${project_dir}\objects\obj_select\Step_0.gml
+Converted description /// @description Cursor Select
+
+Converting GML script: ${project_dir}\objects\obj_inv\Create_0.gml
+Converted description /// @description Initial the Inventory
+
+Converting GML script: ${project_dir}\objects\obj_inv\Draw_64.gml
+Converted builtin - line 30: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 34: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 38: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_xport[0] -> __view_get( e__VW.XPort, 0 )
+Converted builtin - line 6: view_xport[0] -> __view_get( e__VW.XPort, 0 )
+Converted builtin - line 6: view_yport[0] -> __view_get( e__VW.YPort, 0 )
+Converted builtin - line 6: view_yport[0] -> __view_get( e__VW.YPort, 0 )
+Converted builtin - line 6: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 6: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted description /// @description Draw inv
+
+Converting GML script: ${project_dir}\objects\obj_menubutton\Create_0.gml
+Converted string - line 5: '' -> ""
+
+Converting GML script: instance inst_69557D48 creation code
+Converted string - line 2: 'SINGLE PLAYER' -> "SINGLE PLAYER"
+
+Converting GML script: instance inst_18EF6046 creation code
+Converted string - line 2: 'GENERATION' -> "GENERATION"
+
+Converting GML script: instance inst_49F36BBB creation code
+Converted string - line 2: 'GEN-LARGE' -> "GEN-LARGE"
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
